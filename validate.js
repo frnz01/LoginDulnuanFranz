@@ -13,13 +13,13 @@ function getEmailandPass(){
       alert("Invalid email address");
     }
     else if(emailValidation(email) && !passValidation(password)){
-      alert("Valid email address");
+      alert("Invalid Password");
     }
     else if(!passValidation(password) && emailValidation(email)){
         alert("Invalid Password");
     }
     else if(passValidation(password) && !emailValidation(email)){
-        alert("Valid Password");
+        alert("Invalid email address");
     }
     else if(passValidation(password) && emailValidation(email)){
         alert("Valid email address and password");

@@ -11,8 +11,8 @@
 <body>
     <div class="box">
        <div class="form-box">
-        <input type="email" placeholder="Username" id="uName" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Username must be your email address" required>
-        <input type="password" placeholder="Password" id="uPass" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*]).{8,}" title="Password must be a minimum of 8 characters, alphanumeric with at least one special character" required>
+        <input type="email" id="uName" placeholder="Username" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Username must be your email address" required>
+        <input type="password" id="uPass" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*]).{8,}" title="Password must be a minimum of 8 characters, alphanumeric with at least one special character" required>
         <input type="button" value="Login" id="login" onclick="getEmailandPass()">
        </div>
     </div>
